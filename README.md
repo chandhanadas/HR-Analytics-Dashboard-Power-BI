@@ -1,35 +1,56 @@
-# 🧑‍💼 HR Employee Data Validation
+HR Attrition Dashboard 📊
+📌 Project Overview
 
-## 📌 Project Overview
-This project demonstrates **data quality analysis and validation** on an HR employee dataset.  
-The goal is to ensure data accuracy and consistency by applying cleaning techniques on **joining dates, salaries, employee IDs, and department names**.
+The HR Attrition Dashboard is an interactive Power BI project designed to analyze employee attrition trends and workforce performance metrics.
+This dashboard helps HR teams and management identify key factors affecting employee turnover and supports data-driven decision-making for employee retention strategies.
 
-## ⚙️ Tech Stack
-- Python 🐍
-- Pandas & NumPy
-- SQL (extension for validation queries)
+🎯 Objectives
+Analyze employee attrition trends across departments and job roles
+Identify factors contributing to employee turnover
+Monitor workforce demographics and performance indicators
+Support HR decision-making using interactive visualizations
+🛠️ Tools & Technologies
+Power BI
+Excel / CSV
+Power Query
+DAX
+Data Visualization
+Data Cleaning & Transformation
+📊 Dashboard Features
+KPI Cards
+Overall Employees
+Attrition Count
+Attrition Rate
+Active Employees
+Visualizations
+Department-wise Attrition Analysis
+Attrition by Education Level
+Attrition by Overtime
+Employee Distribution by Age Group
+Attrition by Job Role
+Satisfaction & Income Analysis by Tenure
+📈 Key Insights
+Higher attrition observed among employees working overtime
+Certain departments showed significantly higher turnover rates
+Employees aged 25–34 had the highest employee count
+Job roles such as Laboratory Technician and Sales Executive experienced higher attrition
+Attrition trends varied across education levels and tenure periods
+📂 Dataset Information
 
-## 📊 Tasks Performed
-1. **Validate Joining Dates**
-   - Convert to correct datetime format.
-   - Handle invalid dates.
-   - Replace future dates with `NaN`.
+The dataset contains HR employee records including:
 
-2. **Salary Validation**
-   - Ensure salaries fall between **20,000 – 200,000**.
-   - Flag unrealistic or negative salaries.
+Employee Demographics
+Department
+Education
+Job Role
+Monthly Income
+Attrition Status
+Overtime
+Job Satisfaction
+Years at Company
 
-3. **Duplicate Employee IDs**
-   - Detect and remove duplicate employee records.
+🚀 Business Impact
 
-4. **Department Standardization**
-   - Normalize department names (e.g., `hr → HR`, `ops → Operations`).
-
-## ✅ Outputs
-- `cleaned_employee_data.csv` → final cleaned dataset.
-- **Summary Report** of:
-  - Invalid/Future Dates Fixed  
-  - Invalid Salaries Fixed  
-  - Duplicate Employee IDs Removed  
-
-## 📂 File Structure
+Helps HR teams identify workforce retention issues
+Supports strategic HR planning and employee engagement initiatives
+Enables quick monitoring of key HR metrics through interactive dashboards
